@@ -4,6 +4,7 @@ import axios from 'axios';
 import { Navigate, useNavigate } from 'react-router-dom';
 
 const FoodPartnerRegister = () => {
+    const API = import.meta.env.VITE_API_URL;
 
     const navigate = useNavigate()
 
